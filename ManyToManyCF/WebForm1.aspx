@@ -26,7 +26,7 @@
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Assign WCF Course to Mike" />
 
         </div>
-        <asp:Button ID="Button2" runat="server" Text="Remove John from SQL Server Course" />
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Remove John from SQL Server Course" />
     </form>
 </body>
 </html>
